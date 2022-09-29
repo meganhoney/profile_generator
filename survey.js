@@ -28,7 +28,7 @@ rl.question("What's your name? Nicknames are also acceptable :) ", (answer) => {
 
             rl.question("What is your superpower? In a few words, tell us what you are amazing at! ", (answer) => {
               answers.power = answer;
-              console.log(`${answers.name} loves listening to ${answers.music} while ${answers.hobby.toLowerCase()}, devouring ${answers.foodtoLowerCase()} for ${answers.mealtoLowerCase()}, prefers ${answers.sporttoLowerCase()} over any other sport, and is amazing at ${answers.powertoLowerCase()}.`);
+              console.log(`${answers.name} loves listening to ${answers.music} while ${answers.hobby.toLowerCase()}, devouring ${answers.food.toLowerCase()} for ${answers.meal.toLowerCase()}, prefers ${answers.sport.toLowerCase()} over any other sport, and is amazing at ${answers.power.toLowerCase()}.`);
 
               rl.close()
         
